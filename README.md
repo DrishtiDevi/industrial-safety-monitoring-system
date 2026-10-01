@@ -75,7 +75,6 @@ Detected safety violations are recorded with:
 industrial-safety-monitoring-system/
 │
 ├── industrial_safety_monitor.py
-├── combined.py
 ├── test.py
 ├── README.md
 └── .gitignore
