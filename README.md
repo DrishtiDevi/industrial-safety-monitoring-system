@@ -2,13 +2,13 @@
 
 An AI-based computer vision system for real-time industrial safety monitoring using PPE detection, worker pose estimation, and zone-specific safety rules.
 
-#Project Overview
+## Project Overview
 
 This project aims to assist industrial safety monitoring by analyzing video feeds and identifying PPE violations and unsafe worker activities.
 
 The system combines object detection, pose estimation, zone-based safety logic, and automated alert logging.
 
-#Key Features
+## Key Features
 
 - Real-time PPE detection using a custom YOLO model
 - Detection of multiple PPE categories
@@ -22,18 +22,18 @@ The system combines object detection, pose estimation, zone-based safety logic, 
 - Automated safety alerts
 - Safety violation logging with timestamps in CSV format
 
-#System Workflow
+## System Workflow
 
-Video Input
-→ Object Detection
-→ PPE and Equipment Detection
-→ Worker Pose Estimation
-→ Zone Identification
-→ Safety Rule Evaluation
-→ Safety Alert
+Video Input  
+→ Object Detection  
+→ PPE and Equipment Detection  
+→ Worker Pose Estimation  
+→ Zone Identification  
+→ Safety Rule Evaluation  
+→ Safety Alert  
 → CSV Violation Logging
 
-#Technologies Used
+## Technologies Used
 
 - Python
 - OpenCV
@@ -43,25 +43,25 @@ Video Input
 - Computer Vision
 - CSV-based logging
 
-### Safety Monitoring Logic
+## Safety Monitoring Logic
 
-# PPE Monitoring
+### PPE Monitoring
 
 The system detects PPE and evaluates whether required safety equipment is present.
 
-# Electrical Zone
+### Electrical Zone
 
 When an electrical work zone is identified, the system applies electrical-area-specific PPE requirements.
 
-# Conveyor Zone
+### Conveyor Zone
 
 The system monitors conveyor movement and worker interaction with the conveyor/fencing area to identify potentially unsafe situations.
 
-# Stair/Ladder Safety
+### Stair/Ladder Safety
 
 Pose estimation is used to analyze worker posture and check 3-point contact during stair or ladder movement.
 
-# Alert Logging
+### Alert Logging
 
 Detected safety violations are recorded with:
 
@@ -80,13 +80,10 @@ industrial-safety-monitoring-system/
 ├── README.md
 └── .gitignore
 
-### Step 2 — Commit
+### Then commit it
 
-At the bottom of the GitHub editor:
+At the bottom of GitHub, use:
 
-**Commit changes**
-
-For the commit message, write:
-
+**Commit message:**
 ```text
 Update project README
