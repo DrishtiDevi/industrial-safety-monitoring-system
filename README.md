@@ -79,10 +79,3 @@ industrial-safety-monitoring-system/
 ├── README.md
 └── .gitignore
 
-### Then commit it
-
-At the bottom of GitHub, use:
-
-**Commit message:**
-```text
-Update project README
